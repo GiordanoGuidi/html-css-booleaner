@@ -1,4 +1,4 @@
-
+/*Generics*/
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +7,9 @@
 
 .container{
     margin: 0 auto;
-    width: 70%;
+    max-width: 1080px;
 }
+/*CONTENITORE INTESTAZIONE*/
 
 .heading{
     height: 100px;
@@ -42,13 +43,16 @@ h1{
     margin-top: 5px;
 }
 
-.tim-2{
-    height: 502px;
+/*CONTENITORE FOTO*/
+
+.photo-container{
+    height: 530px;
 }
 
 .tim-1,
 .tim-2{
     width: 48%;
+    height: 80%;
     margin-top: 20px;
 }
 
@@ -74,7 +78,7 @@ ul{
     margin-bottom: 20px;
     padding-left: 20px;
 }
-
+/*DESIGN TABELLA*/
 thead{
     background-color: rgb(19, 150, 225);;
 }
@@ -86,6 +90,7 @@ thead{
 .footer-title{
     color: lightslategray;
 }
+/*CONTENITORE FOOTER*/
 
 .footer-container,
 .second
@@ -107,7 +112,7 @@ thead{
 
 .second{
     background-image: url(../img/graph.jpg);
-    
+
 }
 
 
