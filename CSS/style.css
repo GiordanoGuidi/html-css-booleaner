@@ -79,8 +79,15 @@ ul{
     padding-left: 20px;
 }
 /*DESIGN TABELLA*/
+
+table{
+    border-spacing: 0px;
+}
+
 thead{
-    background-color: rgb(19, 150, 225);;
+    background-color: rgb(19, 150, 225);
+    color: white;
+    font-weight: 200;
 }
 
 .colored-row{
