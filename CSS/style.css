@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -41,10 +42,6 @@ h1{
     margin-top: 5px;
 }
 
-.photo-container{
-    height: 800px;
-}
-
 .tim-2{
     height: 502px;
 }
@@ -58,4 +55,63 @@ h1{
 .caption-photo{
     font-size: 15px;
 }
+
+.lorem-1{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+main{
+    font-size: 20px;
+}
+
+.highlighted-paragraph{
+    background-color: yellow;
+}
+
+ul{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+thead{
+    background-color: rgb(19, 150, 225);;
+}
+
+.colored-row{
+    background-color: rgba(18, 177, 205, 0.608);
+}
+
+.footer-title{
+    color: lightslategray;
+}
+
+.footer-container,
+.second
+{
+    background-image: url(../img/monitor.jpg);
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.title-footer-container{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.second{
+    background-image: url(../img/graph.jpg);
+    
+}
+
+
+
+
+
 
