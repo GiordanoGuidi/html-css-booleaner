@@ -5,36 +5,47 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(17, 125, 226);
+}
+
+/*Utils*/
 .container{
     margin: 0 auto;
     max-width: 1080px;
 }
-/*CONTENITORE INTESTAZIONE*/
 
-.heading{
+.text-gray{
+    color: lightgrey;
+}
+
+.text-small{
+    font-size: 12px;
+}
+
+/*Header*/
+.main-header{
     height: 100px;
     background-image: url(../img/pattern.png);
     background-color: rgb(19, 150, 225);
     background-size: 325px;
+    line-height: 100px;
 }
 
 .logo{
     height: 50px;
-    margin-top: 25px;
+    vertical-align: middle;
 }
 
 h1{
     font-size: 48px;
     margin-top: 30px;
+    margin-bottom: 0px;
 }
 
-#link{
-    text-decoration: none;
-    color: rgb(17, 125, 226);
-}
-
-.authors{
-    font-size: 20px;
+address{
+font-size: 20px;
 }
 
 .authors,
@@ -52,7 +63,7 @@ h1{
 .tim-1,
 .tim-2{
     width: 48%;
-    height: 80%;
+    /* height: 80%; */
     margin-top: 20px;
 }
 
